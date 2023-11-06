@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from '.pages/About.jsx'
-import Home from '.pages/Home.jsx';
-import Services from '.pages/Services.jsx';
+import About from './pages/About.jsx'
+import Home from './pages/Home.jsx';
+import Services from './pages/Services.jsx';
 import Contact from './pages/Contact';
 import Layout from './pages/Layout';
 
