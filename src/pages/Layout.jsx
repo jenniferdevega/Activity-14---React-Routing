@@ -15,6 +15,9 @@ function Layout(){
                             <Link className="nav-link text-light" to="about">About</Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link text-light" to="contact">Services</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link text-light" to="contact">Contact</Link>
                         </li>
                     </ul>
