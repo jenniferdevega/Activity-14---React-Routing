@@ -1,7 +1,9 @@
 function Home() {
 
     return(
-        <h1>This is Home Page</h1>
+        <div className="container">
+            <img src="Home.png" alt="Store Front" class="img-fluid" />
+        </div>
     )
 }
 

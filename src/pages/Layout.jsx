@@ -5,12 +5,21 @@ function Layout(){
         <main className="d-flex flex-column min-vh-100">
             <nav className="navbar navbar-expand-lg bg-black shadow">
                 <div className="container-fluid">
-                    <Link className="navbar-brand fw-bold text-light" to="/">React Routing Demo</Link>
+                    <Link className="navbar-brand fw-bold text-light" to="/">
+                    <img
+                        src="logo.png"
+                        alt="Barnes & Nobles"
+                        title="Barnes & Nobles"
+                        height="70"
+                        width="220"
+                        class="img-fluid"
+                    />
+                    </Link>
                     <button className="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav text-light">
+                    <ul className="navbar-nav text-light fs-5">
                         <li className="nav-item">
                             <Link className="nav-link text-light" to="about">About</Link>
                         </li>
@@ -18,7 +27,7 @@ function Layout(){
                             <Link className="nav-link text-light" to="services">Services</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-light" to="contact">Contact</Link>
+                            <Link className="nav-link text-light" to="contact">☎️Contact</Link>
                         </li>
                     </ul>
                     </div>
@@ -29,8 +38,8 @@ function Layout(){
                 <Outlet></Outlet>
             </div>
 
-            <footer className="bg-dark p-1 text-center text-white footer mt-auto">
-                <p>This is the footer</p>
+            <footer className="bg-dark text-center text-white footer mt-auto p-2">
+                <p>Copyright 2023 © De Vega, Jennifer. All rights Reserved.</p>
             </footer>
         </main>
     )
