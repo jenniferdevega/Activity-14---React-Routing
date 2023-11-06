@@ -2,7 +2,7 @@ function Services(){
 
     return(
         <section id="services" className="container">
-        <h2 className="text-right mb-5 mt-4">Services We Offer</h2>
+          <h2 className="text-right mb-5 mt-4">Services We Offer</h2>
         <div
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
